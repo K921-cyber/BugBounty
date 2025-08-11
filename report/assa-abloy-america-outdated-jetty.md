@@ -50,3 +50,51 @@ https://eacconfig.assaabloy.com/gatingForm
 
 
 ---
+---
+
+## 🧩 Affected Version & CVEs
+
+- **CVE-2025-1948** – HTTP/2 settings misconfiguration allowing memory exhaustion via malicious frames (DoS).  
+🔗 https://www.opencve.io/cve/CVE-2025-1948
+
+- **CVE-2024-6763** – Improper URI validation potentially enabling SSRF and open redirect.  
+🔗 https://www.opencve.io/cve/CVE-2024-6763
+
+- Other risks may include:
+- Request smuggling
+- Path traversal
+- Internal path leakage
+
+---
+
+## 🎯 Impact
+
+- Enables attackers to **fingerprint backend technology** and match known exploits.
+- Increases the attack surface for **DoS** or **SSRF**.
+- Can be chained with other vulnerabilities for more severe exploitation.
+
+---
+
+## 🛡️ Recommendations
+
+- Upgrade Jetty to **10.0.26** or preferably **Jetty 11/12** for latest security patches.
+- Suppress server version disclosure:
+- Disable `Server` header in HTTP responses.
+- Remove version info from error pages.
+- Implement custom error handling pages to prevent tech stack leakage.
+
+---
+
+
+## 📚 References
+
+- [CVE-2025-1948](https://www.opencve.io/cve/CVE-2025-1948)  
+- [CVE-2024-6763](https://www.opencve.io/cve/CVE-2024-6763)  
+- [OWASP Secure Headers Project](https://owasp.org/www-project-secure-headers/)
+
+---
+
+> **Disclaimer:** This report was submitted under a responsible disclosure program.  
+> It is shared here for educational and portfolio purposes only.
+
+---

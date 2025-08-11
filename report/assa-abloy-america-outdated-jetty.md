@@ -17,9 +17,29 @@ The version information is disclosed in HTTP error pages and is affected by mult
 
 **Vulnerability Type:** Outdated Software Version (Jetty)  
 **Endpoint Tested:**  
-
-````
+---
 
 **Observed Behavior:**
 When a malformed character (single quote `'`) is appended to the URL, the application returns an **HTTP 404** error page containing:
-````
+https://eacconfig.assaabloy.com/gatingForm
+<img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/5bdac947-8f3f-429e-8a9d-80846d1d36e6" /
+---
+
+
+---
+
+## 🔍 Steps to Reproduce
+
+1. Navigate to:
+```
+https://eacconfig.assaabloy.com/gatingForm
+```
+2.Append a single quote (`'`):
+```
+https://eacconfig.assaabloy.com/gatingForm
+
+```
+3. Observe the HTTP 404 error page.
+4. The response discloses:
+   <img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/5bdac947-8f3f-429e-8a9d-80846d1d36e6" /
+----

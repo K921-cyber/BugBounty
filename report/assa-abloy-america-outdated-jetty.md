@@ -22,7 +22,11 @@ The version information is disclosed in HTTP error pages and is affected by mult
 **Observed Behavior:**
 When a malformed character (single quote `'`) is appended to the URL, the application returns an **HTTP 404** error page containing:
 https://eacconfig.assaabloy.com/gatingForm
-<img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/5bdac947-8f3f-429e-8a9d-80846d1d36e6" /
+
+
+<img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/01d73b9f-c39b-4d33-ae7a-fb834702e3a8" />
+
+
 ---
 
 
@@ -41,5 +45,8 @@ https://eacconfig.assaabloy.com/gatingForm
 ```
 3. Observe the HTTP 404 error page.
 4. The response discloses:
-   <img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/5bdac947-8f3f-429e-8a9d-80846d1d36e6" /
-----
+
+<img width="1919" height="924" alt="Screenshot 2025-08-05 223515" src="https://github.com/user-attachments/assets/7bed41ae-a71f-4d1f-9875-43d461574b7d" />
+
+
+---

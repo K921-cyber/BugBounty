@@ -10,6 +10,11 @@ This repo is a collection of my responsibly disclosed vulnerabilities, proof-of-
 - [ASSA ABLOY America – Outdated Jetty Server Version (10.0.25)](report/assa-abloy-america-outdated-jetty.md)
 
 ---
+## 🏆 Hall of Fame & Recognitions
+
+- **ASSA ABLOY America** – Hall of Fame for reporting "Outdated Jetty Server Version" vulnerability.
+
+---
 
 ## 🛡️ Ethical Note
 

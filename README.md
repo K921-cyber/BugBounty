@@ -7,7 +7,7 @@ This repo is a collection of my responsibly disclosed vulnerabilities, proof-of-
 
 ## 📂 Reports
 
-- [ASSA ABLOY America – Outdated Jetty Server Version (10.0.25)](reports/assa-abloy-america-outdated-jetty.md)
+- [ASSA ABLOY America – Outdated Jetty Server Version (10.0.25)](report/assa-abloy-america-outdated-jetty.md)
 
 ---
 
